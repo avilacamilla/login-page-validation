@@ -5,7 +5,8 @@ function logar() {
 
     if (email == 'camilla@comunidadecode.com.br' && password == '21112022') {
         alert('Autenticado com sucesso!');
+        location.href = 'home.html';
     } else {
-        alert('Usuário ou senha inválidos!')
+        alert('Usuário ou senha inválidos!');
     }
 }
