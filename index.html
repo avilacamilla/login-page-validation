@@ -6,25 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
-    
-    <title></title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Notas Secretas</title>
 </head>
 <body>
     <header>
+        <div>
+            <h1 class="typewriter">Notas secretas</h1>
+        </div>
+
+       
+    </header>
+    <main>
         <form>
             <h3>Login</h3>
             <input type="email" placeholder="E-mail" id="email" required>
             <input type="password" placeholder="Senha" id="password">
-            <input type="submit" onclick="logar(); return false">
+            <input type="submit" class="button" onclick="logar(); return false">
         </form>
-    </header>
-    <main>
-
     </main>
     <footer>
         
     </footer>
 
-    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/index.js"></script>
 </body>
 </html>
