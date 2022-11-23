@@ -1,11 +1,37 @@
 * {
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
     width: 100%;
     height: 100%;
+    background: #FEFEFE;
+    font-family: 'Space Mono', monospace;
 }
+
+.typewriter {
+
+    display: inline-block;
+    border-right: 2px solid #000;
+    padding-right: 4px;
+    max-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink normal infinite .8s, text normal 5s steps(55) both;
+}
+
+@keyframes blink {
+    100% {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes text {
+    100% {
+        max-width: 100%;
+    }
+} 
 
 form {
     width: 300px;
@@ -18,4 +44,29 @@ input {
     margin: 10px auto;
     width: 250px;
     height: 30px;
+}
+
+.button {
+    border: none;
+    border-radius: 4px;
+    color: #FFF;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    background: linear-gradient(45deg, #3fddfb, #a66ef0, #d546fc);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
