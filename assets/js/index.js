@@ -1,6 +1,6 @@
 function logar() {
 
-    var email = document.getElementById('email').value;
+    var email = document.getElementById('usuario').value;
     var password = document.getElementById('password').value;
 
     if (email == 'avilacamilla' && password == 'comunidadeCode') {
