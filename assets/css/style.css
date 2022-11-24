@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -100,6 +101,8 @@ input {
 footer {
     align-items: center;
     text-align: center;
+    width: 100%;
+    height: 5px;
     font-size: 13px;
 }
 
@@ -113,7 +116,7 @@ footer a:hover {
 }
 
 
-/*Page not found 404*/
+/*Page not found 404 | erro-404.html*/
 
 #title-erro-404 {
     padding-top: 5px;
@@ -145,22 +148,120 @@ aside {
     margin-top: 105px;
     text-align: center;
     align-items: center;
+    line-height: 110px;
 }
 
 .mark {
     text-transform: uppercase;
-    font-size: 56px;
+    font-size: 70px;
 }
 
 span {
-    font-size: 89px;
+    font-size: 112px;
     font-weight: 700;
 }
 
 #button-page-not-found {
     margin-top: 20px;
-    width: 280px;
+    width: 360px;
+    height: 50px;
+    font-size: 15px;
  
+}
+
+/* Responsividade - Page not found 404 | erro-404.html*/
+
+@media (max-width: 801px) {
+    
+    #title-erro-404 {
+        font-size: 30px;
+    }
+    
+    section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+
+    article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .image-not-found {
+        width: 70%;
+        margin: 40px auto;
+    }
+
+    aside {
+        width: 100%;
+        margin-top: -110px;
+    }
+
+    .subtitle-not-found {
+        line-height: 80px;
+    }
+
+    .mark {
+        font-size: 60px;
+    }
+
+    span {
+        font-size: 100px;
+    }
+
+    #button-page-not-found {
+        margin-top: 50px;
+        width: 300px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    aside {
+        margin-top: -150px;
+    }
+    
+    .mark {
+        font-size: 50px;
+    }
+    
+    span {
+        font-size: 82px;
+    }
+
+    #button-page-not-found {
+        width: 260px;
+    }
+
+    footer {
+        margin-top: 210px;
+    }
+}
+
+@media (max-width:320px) {
+    
+    .subtitle-not-found {
+        line-height: 65px;
+    }
+    
+    .mark {
+        font-size: 45px;
+    }
+
+    span {
+        font-size: 75px;
+    }
+
+    #button-page-not-found {
+        width: 240px;
+    }
 }
 
 
