@@ -61,6 +61,7 @@ input {
 .button {
     width: 250px;
     height: 35px;
+    cursor: pointer;
     border: none;
     border-radius: 4px;
     color: #FFF;
@@ -95,5 +96,74 @@ input {
     margin-top: 10px;
     font-size: 12px;
 }
+
+footer {
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #a66ef0;
+}
+
+footer a:hover {
+    color:#d546fc
+}
+
+
+/*Page not found 404*/
+
+#title-erro-404 {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 35px;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    width: 50%;
+}
+
+.image-not-found {
+    width: 90%;
+    margin-left: 80px;
+}
+
+aside {
+    width: 50%;
+    text-align: center;
+}
+
+.subtitle-not-found {
+    margin-left: 80px;
+    margin-top: 195px;
+    text-align: center;
+    align-items: center;
+}
+
+.mark {
+    text-transform: uppercase;
+    font-size: 56px;
+}
+
+span {
+    font-size: 50px;
+    font-size: 89px;
+    font-weight: 700;
+}
+
+#button-page-not-found {
+    margin-top: 20px;
+    margin-left: 70px;
+    
+}
+
+
+
 
 
