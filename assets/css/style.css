@@ -169,6 +169,7 @@ span {
  
 }
 
+
 /* Responsividade - Page not found 404 | erro-404.html*/
 
 @media (max-width: 801px) {
@@ -241,7 +242,7 @@ span {
     }
 
     footer {
-        margin-top: 120px;
+        margin-top: 180px;
     }
 }
 
@@ -265,6 +266,106 @@ span {
 }
 
 
+/* Página home.html */
+
+.notes {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.add-note-article {
+    background-color: #a66ef0;
+    width: 960px;
+    height: 286px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+.add-note-title {
+    margin: 10px 0 5px 0;
+    height: 40px;
+    width: 850px;
+    padding-left: 12px;
+    border-radius: 20px;
+    border: 1px solid #d546fc;
+}
+
+.add-note-title::placeholder {
+    text-align: center;
+}
+
+.add-note-text {
+    resize: none;
+    width: 850px;
+    height: 600px;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #d546fc;
+    margin-bottom: 5px;    
+}
+
+.add-note-text::placeholder {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.add-note-button, .delete-all-notes-button {
+    overflow: hidden;
+    margin: 3px;
+    width: 850px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #d546fc;
+}
+
+.delete-all-notes-button {
+    background-color: darkred;
+    color: #EEE;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.your-note {
+    background-color: #CCC;
+    width: 4px;
+    height: 4px;
+    margin: 10px 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border-radius: 20px;
+} 
+
+.your-note input {
+    margin: 10px 15px 5px 0;
+    height: 200px;
+    width: 850px;
+    padding-left: 12px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 2px solid #a66ef0;
+}
+
+.your-note textarea {
+    resize: none;
+    border: none;
+    margin-right: 15px;
+    width: 850px;
+    height: 600px;
+    padding: 12px;
+    border: 20px;
+    margin-bottom: 5px;
+
+}
 
 
 
