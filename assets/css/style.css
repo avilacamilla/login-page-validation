@@ -123,6 +123,7 @@ footer a:hover {
 
 section {
     display: flex;
+    justify-content: space-around;
 }
 
 article {
@@ -130,18 +131,18 @@ article {
 }
 
 .image-not-found {
-    width: 90%;
+    width: 80%;
     margin-left: 80px;
 }
 
 aside {
     width: 50%;
     text-align: center;
+    align-items: center;
 }
 
 .subtitle-not-found {
-    margin-left: 80px;
-    margin-top: 195px;
+    margin-top: 105px;
     text-align: center;
     align-items: center;
 }
@@ -152,15 +153,14 @@ aside {
 }
 
 span {
-    font-size: 50px;
     font-size: 89px;
     font-weight: 700;
 }
 
 #button-page-not-found {
     margin-top: 20px;
-    margin-left: 70px;
-    
+    width: 280px;
+ 
 }
 
 
