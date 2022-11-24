@@ -8,10 +8,17 @@ body {
     height: 100%;
     background: #FEFEFE;
     font-family: 'Space Mono', monospace;
+    background: rgb(218,247,255);
+    background: linear-gradient(256deg, rgba(218,247,255,1) 5%, rgba(255, 201, 255, 0.939) 100%);
+}
+
+
+h3 {
+    font-size: 25px;
+    color: rgb(56, 56, 56);
 }
 
 .typewriter {
-
     display: inline-block;
     border-right: 2px solid #000;
     padding-right: 4px;
@@ -43,16 +50,23 @@ input {
     display: block;
     margin: 10px auto;
     width: 250px;
-    height: 30px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background: #ffffff65;
+    color: #a66ef0;
 }
 
 .button {
+    width: 250px;
+    height: 35px;
     border: none;
     border-radius: 4px;
     color: #FFF;
     font-family: 'Space Mono', monospace;
     font-weight: 700;
-    background: linear-gradient(45deg, #3fddfb, #a66ef0, #d546fc);
+    background: linear-gradient(45deg, #f5a7db, #a66ef0, #d546fc);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
 }
@@ -70,3 +84,16 @@ input {
         background-position: 0% 50%;
     }
 }
+
+.forgot-password {
+    text-decoration: none;
+    color: #a66ef0;
+}
+
+
+.forgot-password p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+
