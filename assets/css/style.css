@@ -367,5 +367,20 @@ span {
 
 }
 
+/*notas
+
+.your-note textarea {
+    resize: none;
+    border: none;
+    margin-right: 15px;
+    width: 850px;
+    height: 600px;
+    padding: 12px;
+    border: 20px;
+    margin-bottom: 5px;
+
+}
 
 
+
+*/
