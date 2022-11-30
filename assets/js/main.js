@@ -68,8 +68,8 @@ function atribuirValor(){
     const yourNoteTitle = document.querySelector(`.your_note_title_${i}`);
     const yourNoteText = document.querySelector(`.your_note_text_${i}`);
 
-    deleteNote.src = "https://img.icons8.com/color/48/000000/delete-forever.png";
-    saveNote.src = "https://img.icons8.com/color/48/000000/save--v1.png";
+    deleteNote.src = "https://www.svgrepo.com/show/192510/trash.svg";
+    saveNote.src = "https://www.svgrepo.com/show/192476/diskette-save.svg";
 
     yourNoteTitle.value = addNoteTitle.value;
     yourNoteText.value = addNoteText.value;
@@ -85,8 +85,8 @@ function recuperarValor(){
     const yourNoteTitle = document.querySelector(`.your_note_title_${i}`);
     const yourNoteText = document.querySelector(`.your_note_text_${i}`);
 
-    deleteNote.src = "https://img.icons8.com/color/48/000000/delete-forever.png";
-    saveNote.src = "https://img.icons8.com/color/48/000000/save--v1.png";
+    deleteNote.src = "https://www.svgrepo.com/show/192510/trash.svg";
+    saveNote.src = "https://www.svgrepo.com/show/192476/diskette-save.svg";
 
     yourNoteTitle.value = localStorage.getItem(keyTitle);
     yourNoteText.value = localStorage.getItem(keyText);

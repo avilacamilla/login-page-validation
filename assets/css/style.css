@@ -99,6 +99,7 @@ input {
 }
 
 footer {
+    margin-top: 35vh;
     align-items: center;
     text-align: center;
     width: 100%;
@@ -373,6 +374,11 @@ span {
         }
     }
 
+.back-to-login {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
 /* Seção de notas */
 
 .your_note{
@@ -416,20 +422,8 @@ div{
     height: 1.8em;
     margin-right: 5px;
 }
-footer{
-    display: inline-block;
-    margin-top: 10px;
-    position: fixed;
-    bottom: 0;
-    height: 8vh;
-    width: 100vw;
-    background-color: #555;
-    margin-bottom: -4px;
 
+img {
+    cursor: pointer;
 }
-.copyright{
-    text-align: center;
-    font-weight: bold;
-    color: #fff;
-    margin-top: 15px;
-}
+
