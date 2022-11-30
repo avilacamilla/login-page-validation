@@ -99,6 +99,7 @@ input {
 }
 
 footer {
+    margin-top: 35vh;
     align-items: center;
     text-align: center;
     width: 100%;
@@ -373,6 +374,11 @@ span {
         }
     }
 
+.back-to-login {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
 /* Seção de notas */
 
 .your_note{
@@ -415,5 +421,9 @@ div{
     width: 1.8em;
     height: 1.8em;
     margin-right: 5px;
+}
+
+img {
+    cursor: pointer;
 }
 
