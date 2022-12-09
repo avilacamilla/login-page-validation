@@ -31,5 +31,26 @@ Autora: <em>Camilla Avila</em>.
 ### Página erro 404
 <img src='https://user-images.githubusercontent.com/115038212/204682471-7a715300-b8fd-4bf3-8604-534afcdbfe3d.png' alt='layout página de anotações'>
 
+### Práticas com o projeto
+
+- Semântica HTML e CSS - Boas práticas de uso das linguegens;
+- ACESSIBILIDADE WEB ♿
+- Uso de pseudo-elementos e classes;
+- Seletores;
+- Responsividade.
+
+### Desafios superados
+
+- Responsvidade para todos os tipos de tela;
+- Uso de promisses para chamadas HTTP na API;
+- Uso de State Hook.
+
+## Stacks do projeto
+
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![ReactJS](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge)
 
 
