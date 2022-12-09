@@ -42,8 +42,7 @@ Autora: <em>Camilla Avila</em>.
 ### Desafios superados
 
 - Responsvidade para todos os tipos de tela;
-- Uso de promisses para chamadas HTTP na API;
-- Uso de State Hook.
+- Flexbox.
 
 ## Stacks do projeto
 
